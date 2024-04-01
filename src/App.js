@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+
+import Acre from './Acre';
 import './App.css';
+import Brick from './Brick';
+import Housing from './Hosing';
+import './AcreStyle.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <h1 className="main">Find Your Services!!</h1>
+ <div><Brick/></div>
+ <div><Housing/></div>
+ <div><Acre/></div>
+</>
+  )
 }
 
 export default App;
